@@ -127,7 +127,8 @@ header .mobile {
   height: 43.5rem;
   background-image: url(../images/banner-landingpage.jpg);
   background-size: auto 100%;
-  background-position: right;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #sign-up-cta {
@@ -178,6 +179,7 @@ header .mobile {
     align-items: center;
     justify-content: center;
     height: 28rem;
+    background-position: right;
   }
 
   #sign-up-cta {
