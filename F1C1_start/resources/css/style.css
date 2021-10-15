@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -225,6 +226,7 @@ header .mobile {
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
+  
 }
 
 .feature {
@@ -271,6 +273,7 @@ header .mobile {
   #features-section {
     flex-flow: column;
     padding: 0;
+    max-width: 100%;
   }
 
   .feature {
